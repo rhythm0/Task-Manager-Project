@@ -36,11 +36,7 @@ $ python todo.py --add "Walk Dog" --due 4/17/2018 --priority 1
 
 Created task 1
 
-$ python todo.py --add "Study for finals" --due 3/20/2018 --priority 3
-
-Created task 2
-
-$ python todo.py --add "Buy milk and eggs" —due friday --priority 2
+$ python todo.py --add "Buy milk and eggs" --due friday --priority 2
 
 Created task 3
 
@@ -58,16 +54,23 @@ $ python todo.py -h
 Command Line Task Manager
 
 optional arguments:
-  -h, --help            show this help message and exit\n
-  --add ADD             Add a new task\n
-  --delete DELETE       Delete a task by ID\n
-  --list                List tasks\n
-  --report              Report all tasks\n
+
+`  -h, --help            show this help message and exit`
+
+  --add ADD             Add a new task
+
+  --delete DELETE       Delete a task by ID
+
+  --list                List tasks
+
+  --report              Report all tasks
+
   --query QUERY [QUERY ...]
-                        Search tasks with query terms\n
-  --done DONE           Mark a task as done by ID\n
-  --due DUE             Due date for the task\n
-  --priority PRIORITY   Priority of the task, default is 1\n
+                        Search tasks with query terms
+
+  --done DONE           Mark a task as done by ID
+  --due DUE             Due date for the task
+  --priority PRIORITY   Priority of the task, default is 1
   
 
 $ python todo.py --add 2 --due 4/17/2018 --priority 1
