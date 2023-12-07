@@ -10,7 +10,7 @@ Run the program completely from the command line passing in commands and argumen
 The commands are --add (with --due, --priority), --delete, --list, --report, --query, and --done.  
 
 - usage: 
-    - todo.py [-h] [--add ADD] [--delete DELETE] [--list] [--report] [--query QUERY [QUERY ...]] [--done DONE] [--due DUE] [--priority PRIORITY]
+`todo.py [-h] [--add ADD] [--delete DELETE] [--list] [--report] [--query QUERY [QUERY ...]] [--done DONE] [--due DUE] [--priority PRIORITY]`
 
 ## Rules
 Below are the rules the tasks would follow in this program:
@@ -24,7 +24,7 @@ Below are the rules the tasks would follow in this program:
 
 ## Task Add
 Add a new task by using the --add command. Sub commands are --due (optional) and --priority (default set as 1). 
-#### Input Format: --add name --due date --priority level
+#### Input Format: `--add name --due date --priority level`
 Data type:
 - name - string
 - date - mm/dd/yy or human readable date
@@ -32,15 +32,15 @@ Data type:
 
 Examples of adding tasks are shown below.
 
-$ python todo.py --add "Walk Dog" --due 4/17/2018 --priority 1
+`$ python todo.py --add "Walk Dog" --due 4/17/2018 --priority 1`
 
 Created task 1
 
-$ python todo.py --add "Buy milk and eggs" --due friday --priority 2
+`$ python todo.py --add "Buy milk and eggs" --due friday --priority 2`
 
 Created task 3
 
-$ python todo.py --add "Cook eggs"
+`$ python todo.py --add "Cook eggs"`
 
 Created task 4
 
@@ -49,30 +49,23 @@ Created task 4
 Once an exception is occured, i,e, invalid input, the program would warn the user to run "python todo.py -h" for usage instructions. 
 - Example: 
 
-$ python todo.py -h
+`$ python todo.py -h`
 
-Command Line Task Manager
+`Command Line Task Manager`
 
-optional arguments:
+`optional arguments:`
 
 `  -h, --help            show this help message and exit`
-
-  --add ADD             Add a new task
-
-  --delete DELETE       Delete a task by ID
-
-  --list                List tasks
-
-  --report              Report all tasks
-
-  --query QUERY [QUERY ...]
-                        Search tasks with query terms
-
-  --done DONE           Mark a task as done by ID
-  --due DUE             Due date for the task
-  --priority PRIORITY   Priority of the task, default is 1
+  `--add ADD             Add a new task`
+  `--delete DELETE       Delete a task by ID`
+  `--list                List tasks`
+  `--report              Report all tasks`
+  `--query QUERY [QUERY ...] Search tasks with query terms`
+  `--done DONE           Mark a task as done by ID`
+  `--due DUE             Due date for the task`
+  `--priority PRIORITY   Priority of the task, default is 1`
   
 
-$ python todo.py --add 2 --due 4/17/2018 --priority 1
+`$ python todo.py --add 2 --due 4/17/2018 --priority 1`
 
-There was an error in creating your task. Run "python todo.py -help" for usage instructions.
+`There was an error in creating your task. Run "python todo.py -help" for usage instructions.`
