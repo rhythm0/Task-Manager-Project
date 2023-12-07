@@ -56,13 +56,21 @@ Once an exception is occured, i,e, invalid input, the program would warn the use
 `optional arguments:`
 
 `  -h, --help            show this help message and exit`
+
   `--add ADD             Add a new task`
+
   `--delete DELETE       Delete a task by ID`
+
   `--list                List tasks`
+
   `--report              Report all tasks`
+
   `--query QUERY [QUERY ...] Search tasks with query terms`
+
   `--done DONE           Mark a task as done by ID`
+
   `--due DUE             Due date for the task`
+  
   `--priority PRIORITY   Priority of the task, default is 1`
   
 
