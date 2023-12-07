@@ -53,18 +53,51 @@ Follow the formatting shown below.
 
 `$ python todo.py --list`
 
-![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/450d7d96-71ef-475e-9c03-ea05cbf85af3)
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/ae8023a9-1f48-4b4b-808d-ce9de8e5e673)
 
 
 ## Task Done Command
 #### Input Format: `--done task_id`
-Complete a task by passing the done argument and the unique identifier. The following example complete tasks 1 and 2. Remember that you are not deleting a task, you are just marking it as complete. Your --list methods should ensure that it not longer is printed to the terminal.
+Complete a task by passing the done argument and the unique identifier. The following example complete tasks 1 and 2. Remember that you are not deleting a task, you are just marking it as complete. Your --list methods should ensure that it is no longer printed to the terminal.
 
-`$ python todo.py --done 1` >>> Completed task 1
+`$ python todo.py --done 2` >>> Completed task 2
 
 `$ python todo.py --list`
 
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/fae55cf1-89b1-481b-ab97-57875c96a951)
 
+
+## Task Delete Command
+#### Input Format: `--delete task_id`
+Delete a task by passing the `--delete` command and the unique identifier.
+
+`$ python todo.py --delete 9`>>> Deleted task 9
+
+`$ python todo.py --list`
+
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/ba1c8d4c-664d-4de7-8386-0dbbe4aa88a0)
+
+## Task List Command Using a Query Term
+#### Input Format: `--query term1 term2 ...`
+Search for tasks that match a search term using the `--query` command. Only return tasks are not completed in your results. Multiple terms should be able to be searched.
+
+`$ python todo.py --query eggs`
+
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/febb5867-b0c6-49e0-ad9d-67937c6a06e6)
+
+
+`$ python todo.py --query eggs study`
+
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/8608e6ad-2286-49a1-86bd-8cc124407f75)
+
+
+## Task Report Command
+#### Input Format: `--report`
+List all tasks, including both completed and incomplete tasks, using the report command. Follow the formatting shown below for the output. Follow the same reporting order as the `--list` command.
+
+`$ python todo.py --report`
+
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/307976cf-27c8-4817-ae5a-769181b58c7c)
 
 ## Help Command 
 Once an exception occurs, i.e., invalid input, the program warns the user to run "python todo.py -h" for usage instructions. 
