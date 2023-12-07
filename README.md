@@ -52,38 +52,12 @@ Follow the formatting shown below.
 
 `$ python todo.py --list`
 
-+------+-------+------------+------------+--------------------+
+![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/450d7d96-71ef-475e-9c03-ea05cbf85af3)
 
-|   ID | Age   | Due Date   |   Priority | Task               |
 
-+======+=======+============+============+====================+
-
-|    2 | 0d    | 04/17/2018 |          1 | Walk Dog           |
-
-+------+-------+------------+------------+--------------------+
-
-|    4 | 0d    | 04/17/2018 |          1 | 2                  |
-
-+------+-------+------------+------------+--------------------+
-
-|    7 | 0d    | 12/20/2018 |          1 | study              |
-
-+------+-------+------------+------------+--------------------+
-
-|    9 | 0d    | 12/08/2023 |          3 | Lunch with friends |
-
-+------+-------+------------+------------+--------------------+
-
-|    8 | 0d    | 12/08/2023 |          2 | Buy milk and eggs  |
-
-+------+-------+------------+------------+--------------------+
-
-|    1 | 1d    | -          |          1 | Cook eggs          |
-
-+------+-------+------------+------------+--------------------+
 
 ## Help Command 
-Once an exception is occured, i,e, invalid input, the program would warn the user to run "python todo.py -h" for usage instructions. 
+Once an exception occurs, i.e., invalid input, the program warns the user to run "python todo.py -h" for usage instructions. 
 - Example: 
 
 `$ python todo.py -h`
