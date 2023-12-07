@@ -37,7 +37,8 @@ Examples of adding tasks are shown below.
 
 `$ python todo.py --add "Cook eggs"` >>> Created task 4
 
-## Task List
+## Task List Command
+#### Input Format: `--list`
 Display a list of the not completed tasks sorted by the due date. 
 
 If tasks have the same due date, sort by decreasing priority (1 is the highest priority). 
@@ -53,6 +54,15 @@ Follow the formatting shown below.
 `$ python todo.py --list`
 
 ![image](https://github.com/rhythm0/mpcs-50101-autumn-2023-finalproject-rhythm0/assets/66907386/450d7d96-71ef-475e-9c03-ea05cbf85af3)
+
+
+## Task Done Command
+#### Input Format: `--done task_id`
+Complete a task by passing the done argument and the unique identifier. The following example complete tasks 1 and 2. Remember that you are not deleting a task, you are just marking it as complete. Your --list methods should ensure that it not longer is printed to the terminal.
+
+`$ python todo.py --done 1` >>> Completed task 1
+
+`$ python todo.py --list`
 
 
 
