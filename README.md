@@ -37,6 +37,50 @@ Examples of adding tasks are shown below.
 
 `$ python todo.py --add "Cook eggs"` >>> Created task 4
 
+## Task List
+Display a list of the not completed tasks sorted by the due date. 
+
+If tasks have the same due date, sort by decreasing priority (1 is the highest priority). 
+
+If tasks have no due date, then sort by decreasing priority.
+
+Only tasks that are not completed should be listed with this command. 
+
+The Age in the table is the number of days since the task was created.
+
+Follow the formatting shown below.
+
+`$ python todo.py --list`
+
++------+-------+------------+------------+--------------------+
+
+|   ID | Age   | Due Date   |   Priority | Task               |
+
++======+=======+============+============+====================+
+
+|    2 | 0d    | 04/17/2018 |          1 | Walk Dog           |
+
++------+-------+------------+------------+--------------------+
+
+|    4 | 0d    | 04/17/2018 |          1 | 2                  |
+
++------+-------+------------+------------+--------------------+
+
+|    7 | 0d    | 12/20/2018 |          1 | study              |
+
++------+-------+------------+------------+--------------------+
+
+|    9 | 0d    | 12/08/2023 |          3 | Lunch with friends |
+
++------+-------+------------+------------+--------------------+
+
+|    8 | 0d    | 12/08/2023 |          2 | Buy milk and eggs  |
+
++------+-------+------------+------------+--------------------+
+
+|    1 | 1d    | -          |          1 | Cook eggs          |
+
++------+-------+------------+------------+--------------------+
 
 ## Help Command 
 Once an exception is occured, i,e, invalid input, the program would warn the user to run "python todo.py -h" for usage instructions. 
