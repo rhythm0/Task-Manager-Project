@@ -78,7 +78,7 @@ Very nice to use tabulate to display tasks table in a well-aligned format.
 
 2. include more error handlings such as reading/writing files (Line 43)
 
-3. print errors for logging and add add a general exception handling at the end to catch all errors.
+3. print errors for logging and add a general exception handling at the end to catch all errors.
     ```
         For example,
                 try:
@@ -92,7 +92,7 @@ Very nice to use tabulate to display tasks table in a well-aligned format.
 
 4. modularize your code to make your program easier to read, to be reused and more testable.
     ```
-        For exxample,
+        For example,
 
         Tasks and Task classes can be moved to a Task module.
 
